@@ -1,0 +1,109 @@
+header {
+  background-color: #FF9D23;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+.intro-text {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+/* Navigation Bar */
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #E5D0AC;
+  margin: 0;
+}
+
+.nav-bar li {
+  margin: 0 15px;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #640D5F;
+}
+
+.nav-link.active {
+  color: #D91656;
+}
+
+
+body {
+
+    color: rgb(133, 28, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(223, 156, 112);
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 50%;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+.hidden {
+  display: none;
+}
+
+#resumeOutput {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px gray;
+}
