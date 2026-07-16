@@ -1,0 +1,102 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #FEF9E1;
+  color: #333;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Header Section */
+header {
+  background-color: #C14600;
+  text-align: center;
+  padding: 60px 20px;
+  color: white;
+  position: relative;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+header .header-content {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header img.logo {
+  width: 100px;
+  border-radius: 50%;
+  animation: logoAnimation 2s infinite alternate;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-top: 10px;
+  animation: fadeInUp 2s ease-out;
+}
+
+header .intro-text {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #FEF9E1;
+  animation: fadeInUp 2s ease-out;
+  animation-delay: 0.5s;
+}
+
+/* Navigation Bar */
+nav.nav-bar {
+  background-color: #FF9D23;
+  padding: 15px 0;
+  animation: fadeInUp 1.5s ease-out;
+}
+
+nav.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav.nav-bar ul li {
+  list-style: none;
+}
+
+nav.nav-bar ul li a {
+  color: white;
+  font-size: 1.2rem;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav.nav-bar ul li a:hover {
+  background-color: #C14600;
+  color: #FEF9E1;
+}
+
+
+
+body{
+  color: rgb(133, 28, 21);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(223, 156, 112);
+}
+p{
+  text-align: center;
+}
